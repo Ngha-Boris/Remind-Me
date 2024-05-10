@@ -1,6 +1,7 @@
-require('jest-localstorage-mock');
-import 'fakelocalstorage/auto';
 import LocalStorage from "../StorageService.ts";
+require('jest-localstorage-mock');
+// import 'fakelocalstorage/auto';
+
 const testData = {key: 'myvalue'}
 beforeEach(() => {
     localStorage.clear();
